@@ -1,7 +1,7 @@
 import base64
 import sys
 
-# --- TEMPLATE PARA PYTHON (Execução Direta) ---
+# --- TEMPLATE DO BUILDER BASICO (Execução Direta) ---
 PAYLOAD_TEMPLATE_PY = """
 import base64 as _b64
 import sys
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     run_payload()
 """
 
-# --- FUNÇÕES DE CORE ---
+# --- FUNÇÕES ---
 
 def xor_cipher(data, key):
     """Realiza a operação XOR entre os bytes e a chave."""
@@ -133,7 +133,8 @@ def main():
                 print(f"\n[!] Erro: Arquivo '{arquivo_alvo}' não encontrado.")
                 continue
 
-            # Exibição limpa para o usuário copiar e colar no loader C++
+            # Exibicao limpa para o usuario copiar e colar no loader C++
+            
             print("\n" + "="*50)
             print("   DADOS PARA LOADER C++")
             print("="*50)
