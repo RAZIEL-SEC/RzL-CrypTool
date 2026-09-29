@@ -20,6 +20,10 @@ O projeto reúne ferramentas de **Cripter** e **Loader**, permitindo proteger ar
 - 🐍 **Python**
   - Suporte a experimentos envolvendo scripts Python.
   - Proteção e ofuscação de código em runtime.
+ 
+- ⚙️ **C++**
+  - Suporte a experimentos envolvendo scripts C++.
+  - Proteção e ofuscação de código em runtime.
    
 ## 🔄 Funcionamento
 
