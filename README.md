@@ -55,6 +55,8 @@ O projeto reúne ferramentas de **Cripter** e **Loader**, permitindo proteger ar
 │      LOADER      │
 └────────┬─────────┘
          ↓
+
+'''text
 ┌──────────────────┐
 │ Processamento em │
 │     memória      │
