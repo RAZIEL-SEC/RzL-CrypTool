@@ -24,6 +24,7 @@ O projeto reúne ferramentas de **Cripter** e **Loader**, permitindo proteger ar
 ## 🔄 Funcionamento
 
 ```text
+
 ┌──────────────────┐
 │ Arquivo original │
 └────────┬─────────┘
@@ -37,8 +38,13 @@ O projeto reúne ferramentas de **Cripter** e **Loader**, permitindo proteger ar
 └────────┬─────────┘
          ↓
 ┌──────────────────┐
-│  Criptografia    │
-│      XOR         │
+│   Criptografia   │
+│       XOR        │
+└────────┬─────────┘
+         ↓
+┌──────────────────┐
+│   Conversao em   │
+│     Base 64      │
 └────────┬─────────┘
          ↓
 ┌──────────────────┐
