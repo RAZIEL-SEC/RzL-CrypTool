@@ -5,7 +5,9 @@ Ferramenta desenvolvida em **Python** para estudos de criptografia, proteção d
 O projeto reúne ferramentas de **Cripter** e **Loader**, permitindo proteger arquivos por meio de criptografia XOR, gerar chaves automaticamente e trabalhar com o conteúdo protegido durante a execução em memória.
 
 ## Uso integrado com as seguintes ferramentas:
-Stealer: `https://github.com/RAZIEL-SEC/RzL-Stealer.git` e Compilador de código obfuscado: `https://github.com/RAZIEL-SEC/Builder-to-CrypTool.git`
+Stealer: `https://github.com/RAZIEL-SEC/RzL-Stealer.git`
+
+Compilador de código obfuscado: `https://github.com/RAZIEL-SEC/Builder-to-CrypTool.git`
 
 ## 🚀 Recursos
 
