@@ -1,7 +1,7 @@
 import base64
 import sys
 
-# --- TEMPLATE DO BUILDER BASICO (Execução Direta) ---
+# --- TEMPLATE DO BUILDER BASICO ---
 PAYLOAD_TEMPLATE_PY = """
 import base64 as _b64
 import sys
