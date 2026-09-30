@@ -73,6 +73,15 @@ pip install pyinstaller auto-py-to-exe
 ```
 ---
 
+## ▶️ Executando o CrypTool
+
+Com o ambiente virtual ativado:
+
+```bash
+py -3.10 Cryptool.py
+```
+---
+
 ## 🚀 Recursos
 
 - 🔐 **Cripter**
