@@ -18,8 +18,8 @@ winget install Python.Python.3.10
 
 ### 2. Criar uma pasta para o projeto
 ```bash
-mkdir Build_Project
-cd Build_Project
+mkdir CrypTool
+cd CrypTool
 ```
 
 ### 3. Criar o ambiente virtual
