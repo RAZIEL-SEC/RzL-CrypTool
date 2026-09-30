@@ -9,6 +9,59 @@ Stealer: `https://github.com/RAZIEL-SEC/RzL-Stealer.git`
 
 Compilador de código obfuscado: `https://github.com/RAZIEL-SEC/Builder-to-CrypTool.git`
 
+## 🛠️ Instalação e Uso
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/RAZIEL-SEC/RzL-CrypTool.git
+cd RzL-CrypTool
+```
+
+### 2. Criar o ambiente virtual
+
+```bash
+python -m venv venv
+```
+
+### 3. Ativar o ambiente virtual
+
+No PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+No CMD:
+
+```cmd
+venv\Scripts\activate
+```
+
+### 4. Instalar as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+pip install requests psutil browser_cookie3
+
+```
+```bash
+pip install cryptography pycryptodome
+
+```
+```bash
+pip install opencv-python pywin32
+
+```
+```bash
+pip install pyinstaller auto-py-to-exe
+
+```
+---
+
 ## 🚀 Recursos
 
 - 🔐 **Cripter**
