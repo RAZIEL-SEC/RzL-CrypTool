@@ -11,20 +11,25 @@ Compilador de código obfuscado: `https://github.com/RAZIEL-SEC/Builder-to-CrypT
 
 ## 🛠️ Instalação e Uso
 
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/RAZIEL-SEC/RzL-CrypTool.git
-cd RzL-CrypTool
+### 1. Instalar o Python 3.10
+```powershell
+winget install Python.Python.3.10
 ```
 
-### 2. Criar o ambiente virtual
+### 2. Criar uma pasta para o projeto
+```bash
+mkdir Build_Project
+cd Build_Project
+```
+
+
+### 3. Criar o ambiente virtual
 
 ```bash
 python -m venv venv
 ```
 
-### 3. Ativar o ambiente virtual
+### 4. Ativar o ambiente virtual
 
 No PowerShell:
 
@@ -38,7 +43,14 @@ No CMD:
 venv\Scripts\activate
 ```
 
-### 4. Instalar as dependências
+### 5. Clonar o repositório
+
+```bash
+git clone https://github.com/RAZIEL-SEC/RzL-CrypTool.git
+cd RzL-CrypTool
+```
+
+### 6. Instalar as dependências
 
 ```bash
 pip install -r requirements.txt
