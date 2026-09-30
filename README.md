@@ -54,23 +54,6 @@ cd RzL-CrypTool
 ```bash
 pip install -r requirements.txt
 ```
-
-```bash
-pip install requests psutil browser_cookie3
-
-```
-```bash
-pip install cryptography pycryptodome
-
-```
-```bash
-pip install opencv-python pywin32
-
-```
-```bash
-pip install pyinstaller auto-py-to-exe
-
-```
 ---
 
 ## ▶️ Executando o CrypTool
