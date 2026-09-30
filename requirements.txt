@@ -1,17 +1,42 @@
+# --- Núcleo do Projeto (Lógica do Stealer/Crypto) ---
+requests==2.32.5
+psutil==7.2.1
 browser-cookie3==0.20.1
-certifi==2025.11.12
-cffi==2.0.0
-charset-normalizer==3.4.4
 cryptography==46.0.3
-idna==3.11
+pycryptodomex==3.23.0
+opencv-python==4.12.0.88
+pywin32==311
+WMI==1.5.1
+shadowcopy==0.0.4
 lz4==4.4.5
 numpy==2.2.6
-opencv-python==4.12.0.88
-psutil==7.2.1
-pycparser==2.23
-pycryptodomex==3.23.0
-pywin32==311
-requests==2.32.5
-shadowcopy==0.0.4
+
+# --- Tooling (Build e UI) ---
+pyinstaller==6.22.2
+auto-py-to-exe==2.50.1
+Eel==0.18.2
+
+# --- Dependências Transitivas (Essenciais) ---
+# Dependências de auto-py-to-exe / Eel
+bottle==0.13.4
+bottle-websocket==0.9.11
+future==1.0.0
+pyparsing==3.2.0
+importlib-resources==6.4.0
+typing-extensions==4.12.2
+
+# Dependências de pyinstaller
+altgraph==0.17.4
+pefile==2023.2.7
+pyinstaller-hooks-contrib==2025.1
+pywin32-ctypes==0.2.3
+packaging==25.0
+importlib-metadata==8.5.0
+
+# Dependências de requests/cryptography
+certifi==2025.11.12
+charset-normalizer==3.4.4
+idna==3.11
 urllib3==2.6.2
-WMI==1.5.1
+cffi==2.0.0
+pycparser==2.23
