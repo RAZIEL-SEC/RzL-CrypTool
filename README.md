@@ -22,11 +22,10 @@ mkdir Build_Project
 cd Build_Project
 ```
 
-
 ### 3. Criar o ambiente virtual
 
 ```bash
-python -m venv venv
+py -3.10 -m venv .venv
 ```
 
 ### 4. Ativar o ambiente virtual
@@ -34,13 +33,13 @@ python -m venv venv
 No PowerShell:
 
 ```powershell
-.\venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 ```
 
 No CMD:
 
 ```cmd
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 ### 5. Clonar o repositório
